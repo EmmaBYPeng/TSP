@@ -30,7 +30,6 @@ public class Main {
 			GreedyTSP greedy = new GreedyTSP(adjMatrix);
 			ArrayList<Integer> path = greedy.shortestPath();
 			path.forEach(x -> System.out.print(x + " "));
-			System.out.println();
 			
 			TwoOpt optimizer = new TwoOpt(path, adjMatrix);
 			ArrayList<Integer> newPath = optimizer.optimize();
