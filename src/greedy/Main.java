@@ -1,6 +1,7 @@
 package greedy;
 
 import java.util.ArrayList;
+import utility.InputFileProcessor;
 
 public class Main {
 	
@@ -41,7 +42,7 @@ public class Main {
 	
 	public static void main (String args[]) {
 		
-		String input = "/Users/Emma/GitHub/TSP/src/greedy/input.txt";
+		String input = "/Users/Emma/GitHub/TSP/input/input.txt";
 		InputFileProcessor processor = new InputFileProcessor(input, 4);
 		
 		try {

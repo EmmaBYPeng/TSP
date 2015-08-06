@@ -1,4 +1,4 @@
-package greedy;
+package utility;
 
 import java.io.File;
 import java.util.Scanner;
